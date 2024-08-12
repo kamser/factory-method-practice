@@ -1,4 +1,4 @@
-#Situación para el patrón Factory Patter Method:#
+#Situación para el patrón Factory Patter Method:
 - Contexto: Se tiene que crear una granja con animales. los animales en primer lugar va a ser: Gallinas, cerdos y perros.
 - Para comportamiento de cada animal se va a tener:
 -- acción principal: en el caso de la gallina es poner huevos, en el caso del cerdo es comer y en el caso del perro es ladrar.
