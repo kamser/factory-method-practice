@@ -1,0 +1,18 @@
+##Situación para el patrón Factory Patter Method:
+- Contexto: Se tiene que crear una granja con animales. los animales en primer lugar va a ser: Gallinas, cerdos y perros.
+- Para comportamiento de cada animal se va a tener:
+-- acción principal: en el caso de la gallina es poner huevos, en el caso del cerdo es comer y en el caso del perro es ladrar.
+- Para los atibutos se va tener:
+--Cantidad de patas.
+--vuela?
+--cantidad de años.
+- Para la parte de la creación de los animales, se debe tener la posiblidad de crear 10 animales de forma aleatoria y además, la posibilidad de crear solo cerdos y solo gallinas.
+- Segunda Parte del problema:
+- En este apartado lo que se va a introducir es que ahora, además de animales de granja, va a haber utensilios de granja y dichos utensilios van a tener que ser asignados a cada animal cuando se crean ambos. Va a ser 3 utensilos:
+- Una correa: esta es para el perro, la correa va a tener el nombre del perro.
+- Un gallinero, el gallinero se va a crear deacurdo con la cantidad de gallinas que se van a tener y este debe decirlo en su funcion Usar.
+- Un saco de comida de cerdo.
+- Tengo que crear una forma que cuando cree un perro, también se cree su correa y tenga su nombre.
+- Tengo que crear una forma de que cuando se creen gallianas, también se cree su gallinero asociado.
+- Tengo que hacer que, dependiendo de la cantidad de cerdos que se crea, se va a crear un saco de comida diferente. Por ejemplo: si se crean 10 cerdos, se ocupa un saco de 100 Kg de comida. 1 cerdo, 10 Kg.
+- Crear un repositorio y manejar el proyecto por medio de ramas.
