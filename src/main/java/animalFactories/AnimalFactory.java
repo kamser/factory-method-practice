@@ -1,6 +1,6 @@
 package animalFactories;
 
-import farmAnimlas.FarmAnimal;
+import farmAnimals.FarmAnimal;
 
 public abstract class AnimalFactory {
 
