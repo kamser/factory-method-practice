@@ -1,4 +1,4 @@
-package farmAnimlas;
+package farmAnimals;
 
 public class Dog implements FarmAnimal {
 

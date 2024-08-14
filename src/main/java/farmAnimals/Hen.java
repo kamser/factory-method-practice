@@ -1,12 +1,10 @@
-package farmAnimlas;
+package farmAnimals;
 
-import farmAnimlas.FarmAnimal;
+public class Hen implements FarmAnimal {
+    private final short paws = 2;
+    private final boolean canFly = true;
+    private final short yearsOld = 4;
 
-public class Pig implements FarmAnimal {
-
-    private final short paws = 4;
-    private final boolean canFly = false;
-    private final short yearsOld = 10;
     @Override
     public short getPawsAmount() {
         return paws;
