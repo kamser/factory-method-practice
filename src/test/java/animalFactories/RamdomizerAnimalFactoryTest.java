@@ -21,7 +21,7 @@ class RamdomizerAnimalFactoryTest {
         randomFactory = new RamdomizerAnimalFactory();
         ramdomizerAnimalFactory = new RamdomizerAnimalFactory();
         min = 0;
-        max = 2;
+        max = 3;
     }
 
     @Test

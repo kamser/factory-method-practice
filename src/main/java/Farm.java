@@ -1,4 +1,5 @@
 import animalFactories.AnimalFactory;
+import animalFactories.PigAnimalFactory;
 import animalFactories.RamdomizerAnimalFactory;
 import farmAnimals.FarmAnimal;
 
@@ -13,12 +14,11 @@ public class Farm {
         this.animalFactory = animalFactory;
     }
 
-    List<FarmAnimal> generateAnimals(){
+    void generateAnimals(){
 
         for(int i = 0; i < ANIMALS_NUMBER; i++){
             animals.add(animalFactory.createAnimal());
         }
-        return animals;
     }
 
 
@@ -40,7 +40,7 @@ public class Farm {
     }
 
     public static void main(String[]args){
-        Farm farm = new Farm(new RamdomizerAnimalFactory());
+        Farm farm = new Farm(new PigAnimalFactory());
         farm.generateAnimals();
         farm.listAnimals();
     }
