@@ -19,4 +19,9 @@ public class Dog implements FarmAnimal {
     public short getYearsOld() {
         return yearsOld;
     }
+
+    @Override
+    public String getMySpecies() {
+        return "Dog";
+    }
 }
