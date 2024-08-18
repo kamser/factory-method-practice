@@ -4,6 +4,7 @@ import farmAnimals.Dog;
 import farmAnimals.FarmAnimal;
 import farmAnimals.Hen;
 import farmAnimals.Pig;
+import farmUtensils.FarmUtensils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,6 +23,11 @@ public class RamdomizerAnimalFactory extends AnimalFactory {
             case PIG -> new Pig();
             default -> null;
         };
+    }
+
+    @Override
+    public FarmUtensils createUtensil() {
+        return null;
     }
 
     public int getRandomNumber(int min, int max) {
